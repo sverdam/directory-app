@@ -5,11 +5,8 @@ data class User(
     val name: String,
     val description: String,
     val pfp: Int,
-    val header: Int,
     val age: Int,
     val pronouns: String,
-    val favSongName: String,
-    val favSongCover: Int,
-    val favMovieName: String,
-    val favMoviePoster: Int
+    val favSong: String,
+    val favMovie: String,
 )
